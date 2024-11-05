@@ -1,0 +1,619 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\DALI-WRK\\DALI-V6\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2DAC57C5-3367-486E-B431-78026E149539}|AuthenticationService\\AuthenticationService.csproj|c:\\dali-wrk\\dali-v6\\authenticationservice\\authenticationservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2DAC57C5-3367-486E-B431-78026E149539}|AuthenticationService\\AuthenticationService.csproj|solutionrelative:authenticationservice\\authenticationservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DAC57C5-3367-486E-B431-78026E149539}|AuthenticationService\\AuthenticationService.csproj|c:\\dali-wrk\\dali-v6\\authenticationservice\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{2DAC57C5-3367-486E-B431-78026E149539}|AuthenticationService\\AuthenticationService.csproj|solutionrelative:authenticationservice\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EAB28F6-0B16-4D61-AB3F-729234EF9FE7}|AuthorizationGateway\\AuthorizationGateway.csproj|c:\\dali-wrk\\dali-v6\\authorizationgateway\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EAB28F6-0B16-4D61-AB3F-729234EF9FE7}|AuthorizationGateway\\AuthorizationGateway.csproj|solutionrelative:authorizationgateway\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EAB28F6-0B16-4D61-AB3F-729234EF9FE7}|AuthorizationGateway\\AuthorizationGateway.csproj|c:\\dali-wrk\\dali-v6\\authorizationgateway\\controllers\\authorizationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EAB28F6-0B16-4D61-AB3F-729234EF9FE7}|AuthorizationGateway\\AuthorizationGateway.csproj|solutionrelative:authorizationgateway\\controllers\\authorizationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EAB28F6-0B16-4D61-AB3F-729234EF9FE7}|AuthorizationGateway\\AuthorizationGateway.csproj|c:\\dali-wrk\\dali-v6\\authorizationgateway\\services\\authorizationgateway.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EAB28F6-0B16-4D61-AB3F-729234EF9FE7}|AuthorizationGateway\\AuthorizationGateway.csproj|solutionrelative:authorizationgateway\\services\\authorizationgateway.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EAB28F6-0B16-4D61-AB3F-729234EF9FE7}|AuthorizationGateway\\AuthorizationGateway.csproj|c:\\dali-wrk\\dali-v6\\authorizationgateway\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8EAB28F6-0B16-4D61-AB3F-729234EF9FE7}|AuthorizationGateway\\AuthorizationGateway.csproj|solutionrelative:authorizationgateway\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EAB28F6-0B16-4D61-AB3F-729234EF9FE7}|AuthorizationGateway\\AuthorizationGateway.csproj|c:\\dali-wrk\\dali-v6\\authorizationgateway\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{8EAB28F6-0B16-4D61-AB3F-729234EF9FE7}|AuthorizationGateway\\AuthorizationGateway.csproj|solutionrelative:authorizationgateway\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EAB28F6-0B16-4D61-AB3F-729234EF9FE7}|AuthorizationGateway\\AuthorizationGateway.csproj|c:\\dali-wrk\\dali-v6\\authorizationgateway\\authorizationgateway.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8EAB28F6-0B16-4D61-AB3F-729234EF9FE7}|AuthorizationGateway\\AuthorizationGateway.csproj|solutionrelative:authorizationgateway\\authorizationgateway.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DAC57C5-3367-486E-B431-78026E149539}|AuthenticationService\\AuthenticationService.csproj|c:\\dali-wrk\\dali-v6\\authenticationservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2DAC57C5-3367-486E-B431-78026E149539}|AuthenticationService\\AuthenticationService.csproj|solutionrelative:authenticationservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D03E0EBF-A915-4E43-B104-0A127F023EB4}|HandbookService\\HandbookService.csproj|c:\\dali-wrk\\dali-v6\\handbookservice\\handbookservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D03E0EBF-A915-4E43-B104-0A127F023EB4}|HandbookService\\HandbookService.csproj|solutionrelative:handbookservice\\handbookservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D03E0EBF-A915-4E43-B104-0A127F023EB4}|HandbookService\\HandbookService.csproj|c:\\dali-wrk\\dali-v6\\handbookservice\\repositories\\ihandbookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D03E0EBF-A915-4E43-B104-0A127F023EB4}|HandbookService\\HandbookService.csproj|solutionrelative:handbookservice\\repositories\\ihandbookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D03E0EBF-A915-4E43-B104-0A127F023EB4}|HandbookService\\HandbookService.csproj|c:\\dali-wrk\\dali-v6\\handbookservice\\repositories\\handbookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D03E0EBF-A915-4E43-B104-0A127F023EB4}|HandbookService\\HandbookService.csproj|solutionrelative:handbookservice\\repositories\\handbookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8A7CFC9-A070-4744-A8F4-422D13D759AF}|ImportExportService\\ImportExportService.csproj|c:\\dali-wrk\\dali-v6\\importexportservice\\importexportservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A8A7CFC9-A070-4744-A8F4-422D13D759AF}|ImportExportService\\ImportExportService.csproj|solutionrelative:importexportservice\\importexportservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DAC57C5-3367-486E-B431-78026E149539}|AuthenticationService\\AuthenticationService.csproj|c:\\dali-wrk\\dali-v6\\authenticationservice\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DAC57C5-3367-486E-B431-78026E149539}|AuthenticationService\\AuthenticationService.csproj|solutionrelative:authenticationservice\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EAB28F6-0B16-4D61-AB3F-729234EF9FE7}|AuthorizationGateway\\AuthorizationGateway.csproj|c:\\dali-wrk\\dali-v6\\authorizationgateway\\services\\iauthorizationgateway.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EAB28F6-0B16-4D61-AB3F-729234EF9FE7}|AuthorizationGateway\\AuthorizationGateway.csproj|solutionrelative:authorizationgateway\\services\\iauthorizationgateway.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DAC57C5-3367-486E-B431-78026E149539}|AuthenticationService\\AuthenticationService.csproj|c:\\dali-wrk\\dali-v6\\authenticationservice\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DAC57C5-3367-486E-B431-78026E149539}|AuthenticationService\\AuthenticationService.csproj|solutionrelative:authenticationservice\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DAC57C5-3367-486E-B431-78026E149539}|AuthenticationService\\AuthenticationService.csproj|c:\\dali-wrk\\dali-v6\\authenticationservice\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DAC57C5-3367-486E-B431-78026E149539}|AuthenticationService\\AuthenticationService.csproj|solutionrelative:authenticationservice\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DAC57C5-3367-486E-B431-78026E149539}|AuthenticationService\\AuthenticationService.csproj|c:\\dali-wrk\\dali-v6\\authenticationservice\\models\\updateprofilemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DAC57C5-3367-486E-B431-78026E149539}|AuthenticationService\\AuthenticationService.csproj|solutionrelative:authenticationservice\\models\\updateprofilemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DAC57C5-3367-486E-B431-78026E149539}|AuthenticationService\\AuthenticationService.csproj|c:\\dali-wrk\\dali-v6\\authenticationservice\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DAC57C5-3367-486E-B431-78026E149539}|AuthenticationService\\AuthenticationService.csproj|solutionrelative:authenticationservice\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DAC57C5-3367-486E-B431-78026E149539}|AuthenticationService\\AuthenticationService.csproj|c:\\dali-wrk\\dali-v6\\authenticationservice\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DAC57C5-3367-486E-B431-78026E149539}|AuthenticationService\\AuthenticationService.csproj|solutionrelative:authenticationservice\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DAC57C5-3367-486E-B431-78026E149539}|AuthenticationService\\AuthenticationService.csproj|c:\\dali-wrk\\dali-v6\\authenticationservice\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DAC57C5-3367-486E-B431-78026E149539}|AuthenticationService\\AuthenticationService.csproj|solutionrelative:authenticationservice\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DAC57C5-3367-486E-B431-78026E149539}|AuthenticationService\\AuthenticationService.csproj|c:\\dali-wrk\\dali-v6\\authenticationservice\\services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DAC57C5-3367-486E-B431-78026E149539}|AuthenticationService\\AuthenticationService.csproj|solutionrelative:authenticationservice\\services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1809D08A-C0D3-4CCB-8568-736A0848DD1C}|UserProfileService\\UserProfileService.csproj|c:\\dali-wrk\\dali-v6\\userprofileservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1809D08A-C0D3-4CCB-8568-736A0848DD1C}|UserProfileService\\UserProfileService.csproj|solutionrelative:userprofileservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1809D08A-C0D3-4CCB-8568-736A0848DD1C}|UserProfileService\\UserProfileService.csproj|c:\\dali-wrk\\dali-v6\\userprofileservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1809D08A-C0D3-4CCB-8568-736A0848DD1C}|UserProfileService\\UserProfileService.csproj|solutionrelative:userprofileservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1809D08A-C0D3-4CCB-8568-736A0848DD1C}|UserProfileService\\UserProfileService.csproj|c:\\dali-wrk\\dali-v6\\userprofileservice\\controllers\\userprofileservicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1809D08A-C0D3-4CCB-8568-736A0848DD1C}|UserProfileService\\UserProfileService.csproj|solutionrelative:userprofileservice\\controllers\\userprofileservicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1809D08A-C0D3-4CCB-8568-736A0848DD1C}|UserProfileService\\UserProfileService.csproj|c:\\dali-wrk\\dali-v6\\userprofileservice\\services\\userprofileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1809D08A-C0D3-4CCB-8568-736A0848DD1C}|UserProfileService\\UserProfileService.csproj|solutionrelative:userprofileservice\\services\\userprofileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1809D08A-C0D3-4CCB-8568-736A0848DD1C}|UserProfileService\\UserProfileService.csproj|c:\\dali-wrk\\dali-v6\\userprofileservice\\services\\iuserprofileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1809D08A-C0D3-4CCB-8568-736A0848DD1C}|UserProfileService\\UserProfileService.csproj|solutionrelative:userprofileservice\\services\\iuserprofileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1809D08A-C0D3-4CCB-8568-736A0848DD1C}|UserProfileService\\UserProfileService.csproj|c:\\dali-wrk\\dali-v6\\userprofileservice\\repositories\\userprofilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1809D08A-C0D3-4CCB-8568-736A0848DD1C}|UserProfileService\\UserProfileService.csproj|solutionrelative:userprofileservice\\repositories\\userprofilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1809D08A-C0D3-4CCB-8568-736A0848DD1C}|UserProfileService\\UserProfileService.csproj|c:\\dali-wrk\\dali-v6\\userprofileservice\\repositories\\iuserprofilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1809D08A-C0D3-4CCB-8568-736A0848DD1C}|UserProfileService\\UserProfileService.csproj|solutionrelative:userprofileservice\\repositories\\iuserprofilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1809D08A-C0D3-4CCB-8568-736A0848DD1C}|UserProfileService\\UserProfileService.csproj|c:\\dali-wrk\\dali-v6\\userprofileservice\\data\\userprofiledbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1809D08A-C0D3-4CCB-8568-736A0848DD1C}|UserProfileService\\UserProfileService.csproj|solutionrelative:userprofileservice\\data\\userprofiledbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1809D08A-C0D3-4CCB-8568-736A0848DD1C}|UserProfileService\\UserProfileService.csproj|c:\\dali-wrk\\dali-v6\\userprofileservice\\models\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1809D08A-C0D3-4CCB-8568-736A0848DD1C}|UserProfileService\\UserProfileService.csproj|solutionrelative:userprofileservice\\models\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DAC57C5-3367-486E-B431-78026E149539}|AuthenticationService\\AuthenticationService.csproj|c:\\dali-wrk\\dali-v6\\authenticationservice\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DAC57C5-3367-486E-B431-78026E149539}|AuthenticationService\\AuthenticationService.csproj|solutionrelative:authenticationservice\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DAC57C5-3367-486E-B431-78026E149539}|AuthenticationService\\AuthenticationService.csproj|c:\\dali-wrk\\dali-v6\\authenticationservice\\data\\authdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DAC57C5-3367-486E-B431-78026E149539}|AuthenticationService\\AuthenticationService.csproj|solutionrelative:authenticationservice\\data\\authdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DAC57C5-3367-486E-B431-78026E149539}|AuthenticationService\\AuthenticationService.csproj|c:\\dali-wrk\\dali-v6\\authenticationservice\\models\\registermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DAC57C5-3367-486E-B431-78026E149539}|AuthenticationService\\AuthenticationService.csproj|solutionrelative:authenticationservice\\models\\registermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DAC57C5-3367-486E-B431-78026E149539}|AuthenticationService\\AuthenticationService.csproj|c:\\dali-wrk\\dali-v6\\authenticationservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DAC57C5-3367-486E-B431-78026E149539}|AuthenticationService\\AuthenticationService.csproj|solutionrelative:authenticationservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\DALI-WRK\\DALI-V6\\AuthenticationService\\Dockerfile",
+              "RelativeDocumentMoniker": "AuthenticationService\\Dockerfile",
+              "ToolTip": "C:\\DALI-WRK\\DALI-V6\\AuthenticationService\\Dockerfile*",
+              "RelativeToolTip": "AuthenticationService\\Dockerfile*",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-02T11:36:11.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\DALI-WRK\\DALI-V6\\AuthorizationGateway\\appsettings.json",
+              "RelativeDocumentMoniker": "AuthorizationGateway\\appsettings.json",
+              "ToolTip": "C:\\DALI-WRK\\DALI-V6\\AuthorizationGateway\\appsettings.json",
+              "RelativeToolTip": "AuthorizationGateway\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-03T16:00:20.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\DALI-WRK\\DALI-V6\\AuthorizationGateway\\Program.cs",
+              "RelativeDocumentMoniker": "AuthorizationGateway\\Program.cs",
+              "ToolTip": "C:\\DALI-WRK\\DALI-V6\\AuthorizationGateway\\Program.cs",
+              "RelativeToolTip": "AuthorizationGateway\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T16:04:27.619Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthorizationGateway.cs",
+              "DocumentMoniker": "C:\\DALI-WRK\\DALI-V6\\AuthorizationGateway\\Services\\AuthorizationGateway.cs",
+              "RelativeDocumentMoniker": "AuthorizationGateway\\Services\\AuthorizationGateway.cs",
+              "ToolTip": "C:\\DALI-WRK\\DALI-V6\\AuthorizationGateway\\Services\\AuthorizationGateway.cs",
+              "RelativeToolTip": "AuthorizationGateway\\Services\\AuthorizationGateway.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAgwBwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T16:02:55.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthenticationService",
+              "DocumentMoniker": "C:\\DALI-WRK\\DALI-V6\\AuthenticationService\\AuthenticationService.csproj",
+              "RelativeDocumentMoniker": "AuthenticationService\\AuthenticationService.csproj",
+              "ToolTip": "C:\\DALI-WRK\\DALI-V6\\AuthenticationService\\AuthenticationService.csproj",
+              "RelativeToolTip": "AuthenticationService\\AuthenticationService.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-03T12:51:11.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\DALI-WRK\\DALI-V6\\AuthorizationGateway\\Dockerfile",
+              "RelativeDocumentMoniker": "AuthorizationGateway\\Dockerfile",
+              "ToolTip": "C:\\DALI-WRK\\DALI-V6\\AuthorizationGateway\\Dockerfile",
+              "RelativeToolTip": "AuthorizationGateway\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-04T02:52:29.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthorizationController.cs",
+              "DocumentMoniker": "C:\\DALI-WRK\\DALI-V6\\AuthorizationGateway\\Controllers\\AuthorizationController.cs",
+              "RelativeDocumentMoniker": "AuthorizationGateway\\Controllers\\AuthorizationController.cs",
+              "ToolTip": "C:\\DALI-WRK\\DALI-V6\\AuthorizationGateway\\Controllers\\AuthorizationController.cs",
+              "RelativeToolTip": "AuthorizationGateway\\Controllers\\AuthorizationController.cs",
+              "ViewState": "AgIAAJIAAAAAAAAAAAAkwK4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T16:03:28.797Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AuthorizationGateway",
+              "DocumentMoniker": "C:\\DALI-WRK\\DALI-V6\\AuthorizationGateway\\AuthorizationGateway.csproj",
+              "RelativeDocumentMoniker": "AuthorizationGateway\\AuthorizationGateway.csproj",
+              "ToolTip": "C:\\DALI-WRK\\DALI-V6\\AuthorizationGateway\\AuthorizationGateway.csproj",
+              "RelativeToolTip": "AuthorizationGateway\\AuthorizationGateway.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-03T15:59:40.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\DALI-WRK\\DALI-V6\\AuthenticationService\\appsettings.json",
+              "RelativeDocumentMoniker": "AuthenticationService\\appsettings.json",
+              "ToolTip": "C:\\DALI-WRK\\DALI-V6\\AuthenticationService\\appsettings.json",
+              "RelativeToolTip": "AuthenticationService\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-02T11:35:15.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HandbookService",
+              "DocumentMoniker": "C:\\DALI-WRK\\DALI-V6\\HandbookService\\HandbookService.csproj",
+              "RelativeDocumentMoniker": "HandbookService\\HandbookService.csproj",
+              "ToolTip": "C:\\DALI-WRK\\DALI-V6\\HandbookService\\HandbookService.csproj",
+              "RelativeToolTip": "HandbookService\\HandbookService.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-03T16:36:17.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IHandbookRepository.cs",
+              "DocumentMoniker": "C:\\DALI-WRK\\DALI-V6\\HandbookService\\Repositories\\IHandbookRepository.cs",
+              "RelativeDocumentMoniker": "HandbookService\\Repositories\\IHandbookRepository.cs",
+              "ToolTip": "C:\\DALI-WRK\\DALI-V6\\HandbookService\\Repositories\\IHandbookRepository.cs",
+              "RelativeToolTip": "HandbookService\\Repositories\\IHandbookRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T16:36:15.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "HandbookRepository.cs",
+              "DocumentMoniker": "C:\\DALI-WRK\\DALI-V6\\HandbookService\\Repositories\\HandbookRepository.cs",
+              "RelativeDocumentMoniker": "HandbookService\\Repositories\\HandbookRepository.cs",
+              "ToolTip": "C:\\DALI-WRK\\DALI-V6\\HandbookService\\Repositories\\HandbookRepository.cs",
+              "RelativeToolTip": "HandbookService\\Repositories\\HandbookRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T16:36:14.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ImportExportService",
+              "DocumentMoniker": "C:\\DALI-WRK\\DALI-V6\\ImportExportService\\ImportExportService.csproj",
+              "RelativeDocumentMoniker": "ImportExportService\\ImportExportService.csproj",
+              "ToolTip": "C:\\DALI-WRK\\DALI-V6\\ImportExportService\\ImportExportService.csproj",
+              "RelativeToolTip": "ImportExportService\\ImportExportService.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-03T16:36:06.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IAuthorizationGateway.cs",
+              "DocumentMoniker": "C:\\DALI-WRK\\DALI-V6\\AuthorizationGateway\\Services\\IAuthorizationGateway.cs",
+              "RelativeDocumentMoniker": "AuthorizationGateway\\Services\\IAuthorizationGateway.cs",
+              "ToolTip": "C:\\DALI-WRK\\DALI-V6\\AuthorizationGateway\\Services\\IAuthorizationGateway.cs",
+              "RelativeToolTip": "AuthorizationGateway\\Services\\IAuthorizationGateway.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T16:02:53.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "LoginDTO.cs",
+              "DocumentMoniker": "C:\\DALI-WRK\\DALI-V6\\AuthenticationService\\DTOs\\LoginDTO.cs",
+              "RelativeDocumentMoniker": "AuthenticationService\\DTOs\\LoginDTO.cs",
+              "ToolTip": "C:\\DALI-WRK\\DALI-V6\\AuthenticationService\\DTOs\\LoginDTO.cs",
+              "RelativeToolTip": "AuthenticationService\\DTOs\\LoginDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T15:54:09.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AppUser.cs",
+              "DocumentMoniker": "C:\\DALI-WRK\\DALI-V6\\AuthenticationService\\Models\\AppUser.cs",
+              "RelativeDocumentMoniker": "AuthenticationService\\Models\\AppUser.cs",
+              "ToolTip": "C:\\DALI-WRK\\DALI-V6\\AuthenticationService\\Models\\AppUser.cs",
+              "RelativeToolTip": "AuthenticationService\\Models\\AppUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T14:02:34.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\DALI-WRK\\DALI-V6\\AuthenticationService\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "AuthenticationService\\Services\\AuthService.cs",
+              "ToolTip": "C:\\DALI-WRK\\DALI-V6\\AuthenticationService\\Services\\AuthService.cs",
+              "RelativeToolTip": "AuthenticationService\\Services\\AuthService.cs",
+              "ViewState": "AgIAAHIAAAAAAAAAAAA7wH4AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T14:04:51.197Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AuthenticationController.cs",
+              "DocumentMoniker": "C:\\DALI-WRK\\DALI-V6\\AuthenticationService\\Controllers\\AuthenticationController.cs",
+              "RelativeDocumentMoniker": "AuthenticationService\\Controllers\\AuthenticationController.cs",
+              "ToolTip": "C:\\DALI-WRK\\DALI-V6\\AuthenticationService\\Controllers\\AuthenticationController.cs",
+              "RelativeToolTip": "AuthenticationService\\Controllers\\AuthenticationController.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAUwG0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T11:31:40.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\DALI-WRK\\DALI-V6\\AuthenticationService\\Repositories\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "AuthenticationService\\Repositories\\IUserRepository.cs",
+              "ToolTip": "C:\\DALI-WRK\\DALI-V6\\AuthenticationService\\Repositories\\IUserRepository.cs",
+              "RelativeToolTip": "AuthenticationService\\Repositories\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T14:04:12.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UpdateProfileModel.cs",
+              "DocumentMoniker": "C:\\DALI-WRK\\DALI-V6\\AuthenticationService\\Models\\UpdateProfileModel.cs",
+              "RelativeDocumentMoniker": "AuthenticationService\\Models\\UpdateProfileModel.cs",
+              "ToolTip": "C:\\DALI-WRK\\DALI-V6\\AuthenticationService\\Models\\UpdateProfileModel.cs",
+              "RelativeToolTip": "AuthenticationService\\Models\\UpdateProfileModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T15:55:47.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\DALI-WRK\\DALI-V6\\AuthenticationService\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "AuthenticationService\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\DALI-WRK\\DALI-V6\\AuthenticationService\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "AuthenticationService\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T14:04:24.619Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\DALI-WRK\\DALI-V6\\AuthenticationService\\Services\\IAuthService.cs",
+              "RelativeDocumentMoniker": "AuthenticationService\\Services\\IAuthService.cs",
+              "ToolTip": "C:\\DALI-WRK\\DALI-V6\\AuthenticationService\\Services\\IAuthService.cs",
+              "RelativeToolTip": "AuthenticationService\\Services\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T14:04:41.659Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "UserProfileDbContext.cs",
+              "DocumentMoniker": "C:\\DALI-WRK\\DALI-V6\\UserProfileService\\Data\\UserProfileDbContext.cs",
+              "RelativeDocumentMoniker": "UserProfileService\\Data\\UserProfileDbContext.cs",
+              "ToolTip": "C:\\DALI-WRK\\DALI-V6\\UserProfileService\\Data\\UserProfileDbContext.cs",
+              "RelativeToolTip": "UserProfileService\\Data\\UserProfileDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T15:36:55.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "IUserProfileRepository.cs",
+              "DocumentMoniker": "C:\\DALI-WRK\\DALI-V6\\UserProfileService\\Repositories\\IUserProfileRepository.cs",
+              "RelativeDocumentMoniker": "UserProfileService\\Repositories\\IUserProfileRepository.cs",
+              "ToolTip": "C:\\DALI-WRK\\DALI-V6\\UserProfileService\\Repositories\\IUserProfileRepository.cs",
+              "RelativeToolTip": "UserProfileService\\Repositories\\IUserProfileRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T15:37:52.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\DALI-WRK\\DALI-V6\\UserProfileService\\appsettings.json",
+              "RelativeDocumentMoniker": "UserProfileService\\appsettings.json",
+              "ToolTip": "C:\\DALI-WRK\\DALI-V6\\UserProfileService\\appsettings.json",
+              "RelativeToolTip": "UserProfileService\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-03T15:35:37.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\DALI-WRK\\DALI-V6\\UserProfileService\\Program.cs",
+              "RelativeDocumentMoniker": "UserProfileService\\Program.cs",
+              "ToolTip": "C:\\DALI-WRK\\DALI-V6\\UserProfileService\\Program.cs",
+              "RelativeToolTip": "UserProfileService\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T15:35:55.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "UserProfileRepository.cs",
+              "DocumentMoniker": "C:\\DALI-WRK\\DALI-V6\\UserProfileService\\Repositories\\UserProfileRepository.cs",
+              "RelativeDocumentMoniker": "UserProfileService\\Repositories\\UserProfileRepository.cs",
+              "ToolTip": "C:\\DALI-WRK\\DALI-V6\\UserProfileService\\Repositories\\UserProfileRepository.cs",
+              "RelativeToolTip": "UserProfileService\\Repositories\\UserProfileRepository.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAswC0AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T15:38:01.76Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "IUserProfileService.cs",
+              "DocumentMoniker": "C:\\DALI-WRK\\DALI-V6\\UserProfileService\\Services\\IUserProfileService.cs",
+              "RelativeDocumentMoniker": "UserProfileService\\Services\\IUserProfileService.cs",
+              "ToolTip": "C:\\DALI-WRK\\DALI-V6\\UserProfileService\\Services\\IUserProfileService.cs",
+              "RelativeToolTip": "UserProfileService\\Services\\IUserProfileService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T15:38:30.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "UserProfileService.cs",
+              "DocumentMoniker": "C:\\DALI-WRK\\DALI-V6\\UserProfileService\\Services\\UserProfileService.cs",
+              "RelativeDocumentMoniker": "UserProfileService\\Services\\UserProfileService.cs",
+              "ToolTip": "C:\\DALI-WRK\\DALI-V6\\UserProfileService\\Services\\UserProfileService.cs",
+              "RelativeToolTip": "UserProfileService\\Services\\UserProfileService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T15:38:46.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "UserProfileServiceController.cs",
+              "DocumentMoniker": "C:\\DALI-WRK\\DALI-V6\\UserProfileService\\Controllers\\UserProfileServiceController.cs",
+              "RelativeDocumentMoniker": "UserProfileService\\Controllers\\UserProfileServiceController.cs",
+              "ToolTip": "C:\\DALI-WRK\\DALI-V6\\UserProfileService\\Controllers\\UserProfileServiceController.cs",
+              "RelativeToolTip": "UserProfileService\\Controllers\\UserProfileServiceController.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAswEIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T15:39:29.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "UserProfile.cs",
+              "DocumentMoniker": "C:\\DALI-WRK\\DALI-V6\\UserProfileService\\Models\\UserProfile.cs",
+              "RelativeDocumentMoniker": "UserProfileService\\Models\\UserProfile.cs",
+              "ToolTip": "C:\\DALI-WRK\\DALI-V6\\UserProfileService\\Models\\UserProfile.cs",
+              "RelativeToolTip": "UserProfileService\\Models\\UserProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T15:36:18.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "LoginModel.cs",
+              "DocumentMoniker": "C:\\DALI-WRK\\DALI-V6\\AuthenticationService\\Models\\LoginModel.cs",
+              "RelativeDocumentMoniker": "AuthenticationService\\Models\\LoginModel.cs",
+              "ToolTip": "C:\\DALI-WRK\\DALI-V6\\AuthenticationService\\Models\\LoginModel.cs",
+              "RelativeToolTip": "AuthenticationService\\Models\\LoginModel.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAYwAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T14:03:15.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "RegisterModel.cs",
+              "DocumentMoniker": "C:\\DALI-WRK\\DALI-V6\\AuthenticationService\\Models\\RegisterModel.cs",
+              "RelativeDocumentMoniker": "AuthenticationService\\Models\\RegisterModel.cs",
+              "ToolTip": "C:\\DALI-WRK\\DALI-V6\\AuthenticationService\\Models\\RegisterModel.cs",
+              "RelativeToolTip": "AuthenticationService\\Models\\RegisterModel.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAA1wAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T14:02:59.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "AuthDbContext.cs",
+              "DocumentMoniker": "C:\\DALI-WRK\\DALI-V6\\AuthenticationService\\Data\\AuthDbContext.cs",
+              "RelativeDocumentMoniker": "AuthenticationService\\Data\\AuthDbContext.cs",
+              "ToolTip": "C:\\DALI-WRK\\DALI-V6\\AuthenticationService\\Data\\AuthDbContext.cs",
+              "RelativeToolTip": "AuthenticationService\\Data\\AuthDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T14:00:14.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\DALI-WRK\\DALI-V6\\AuthenticationService\\Program.cs",
+              "RelativeDocumentMoniker": "AuthenticationService\\Program.cs",
+              "ToolTip": "C:\\DALI-WRK\\DALI-V6\\AuthenticationService\\Program.cs",
+              "RelativeToolTip": "AuthenticationService\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T11:35:31.874Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

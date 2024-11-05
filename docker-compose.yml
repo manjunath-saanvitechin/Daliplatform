@@ -1,0 +1,34 @@
+version: '3.8'
+
+services:
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    environment:
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD=DaliV6!Passw0rd
+    ports:
+      - "1433:1433"
+    networks:
+      - daliv6-network
+
+  authenticationservice:
+    build:
+      context: .
+      dockerfile: AuthenticationService/Dockerfile
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:8080
+      - ConnectionStrings__DefaultConnection=Server=sqlserver,1433;Database=DaliV6Db;User Id=sa;Password=DaliV6!Passw0rd;TrustServerCertificate=true;
+      - Jwt__Key=u7YKZcwB2Jm3AKx84IN1lm6xFYNbB1NEZqpJoSYVIAo=
+      - Jwt__Issuer=DALI-V6
+      - Jwt__Audience=DALI-Clients
+    depends_on:
+      - sqlserver
+    ports:
+      - "5001:8080"
+    networks:
+      - daliv6-network
+
+networks:
+  daliv6-network:
+    driver: bridge

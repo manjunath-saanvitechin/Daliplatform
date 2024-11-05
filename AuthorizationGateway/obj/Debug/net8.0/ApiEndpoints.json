@@ -1,0 +1,87 @@
+[
+  {
+    "ContainingType": "AuthorizationGateway.Controllers.GatewayController",
+    "Method": "ForwardToLogin",
+    "RelativePath": "api/Gateway/AuthService/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "System.Object",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuthorizationGateway.Controllers.GatewayController",
+    "Method": "ForwardToGetProfile",
+    "RelativePath": "api/Gateway/AuthService/profile/{username}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "username",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuthorizationGateway.Controllers.GatewayController",
+    "Method": "ForwardToUpdateProfile",
+    "RelativePath": "api/Gateway/AuthService/profile/{username}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "username",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "model",
+        "Type": "System.Object",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuthorizationGateway.Controllers.GatewayController",
+    "Method": "ForwardToDeleteProfile",
+    "RelativePath": "api/Gateway/AuthService/profile/{username}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "username",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuthorizationGateway.Controllers.GatewayController",
+    "Method": "ForwardToRegister",
+    "RelativePath": "api/Gateway/AuthService/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "System.Object",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

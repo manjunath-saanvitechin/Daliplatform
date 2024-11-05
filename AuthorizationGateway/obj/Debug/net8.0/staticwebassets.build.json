@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "ENqTqHaXPdWmjXB/Ar6R1N2yVX8P8gkfwKs9EfbLfKI=",
+  "Source": "AuthorizationGateway",
+  "BasePath": "_content/AuthorizationGateway",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
