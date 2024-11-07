@@ -1,31 +1,44 @@
-name: Build and Push Docker Compose Image to Docker Hub
+name: Build and Push Docker Image
 
 on:
   push:
     branches:
       - main
+      - develop
 
 jobs:
   build-and-push:
     runs-on: ubuntu-latest
-
+    
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
+    # Step 1: Checkout the repository
+    - name: Checkout code
+      uses: actions/checkout@v2
 
-      - name: Set up Docker Buildx
-        uses: docker/setup-buildx-action@v2
+    # Step 2: Set up Docker Buildx (optional but recommended for Docker Compose)
+    - name: Set up Docker Buildx
+      uses: docker/setup-buildx-action@v2
 
-      - name: Log in to Docker Hub
-        uses: docker/login-action@v2
-        with:
-          username: ${{ secrets.DOCKERHUB_USERNAME }}
-          password: ${{ secrets.DOCKERHUB_PASSWORD }}
+    # Step 3: Log in to Docker Hub
+    - name: Log in to Docker Hub
+      uses: docker/login-action@v2
+      with:
+        username: ${{ secrets.DOCKER_USERNAME }}
+        password: ${{ secrets.DOCKER_PASSWORD }}
 
-      - name: Build and push images using Docker Compose
-        run: |
-          docker-compose -f docker-compose.yml build authenticationservice
-          docker-compose -f docker-compose.yml push authenticationservice
+    # Step 4: Install Docker Compose
+    - name: Install Docker Compose
+      run: |
+        sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+        sudo chmod +x /usr/local/bin/docker-compose
+        docker-compose --version  # Verify installation
 
-      - name: Logout from Docker Hub
-        run: docker logout
+    # Step 5: Build the Docker image using docker-compose
+    - name: Build Docker image
+      run: |
+        docker-compose -f docker-compose.yml build authenticationservice
+
+    # Step 6: Push the Docker image to Docker Hub
+    - name: Push Docker image
+      run: |
+        docker-compose -f docker-compose.yml push authenticationservice
