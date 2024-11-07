@@ -41,19 +41,14 @@ jobs:
         echo "Generated Docker tag: $DOCKER_TAG"
         echo "DOCKER_TAG=$DOCKER_TAG" >> $GITHUB_ENV  # Store the DOCKER_TAG variable
 
-    # Step 6: Build the Docker image using docker-compose
+    # Step 6: Build the Docker image using docker-compose and tag it as 'latest'
     - name: Build Docker image
       run: |
         docker-compose -f docker-compose.yml build authenticationservice
-
-    # Step 7: Tag Docker image
-    - name: Tag Docker image
-      run: |
-        # Tag the image with latest and the generated tag
         docker tag manju88foru/authenticationservice:latest manju88foru/authenticationservice:$DOCKER_TAG
         echo "Docker image tagged as: manju88foru/authenticationservice:$DOCKER_TAG"
 
-    # Step 8: Push Docker image to Docker Hub
+    # Step 7: Push Docker image to Docker Hub
     - name: Push Docker image
       run: |
         # Push the images with both tags
