@@ -38,7 +38,20 @@ jobs:
       run: |
         docker-compose -f docker-compose.yml build authenticationservice
 
-    # Step 6: Push the Docker image to Docker Hub
+    # Step 6: Tag the Docker image with a version tag (date + commit hash)
+    - name: Tag Docker image
+      run: |
+        # Generate a tag based on the current date and commit hash
+        TAG="${GITHUB_SHA}-$(date +'%Y%m%d-%H%M%S')"
+        echo "Generated tag: $TAG"
+
+        # Tag the image with the generated tag
+        docker tag manju88foru/authenticationservice:latest manju88foru/authenticationservice:$TAG
+        echo "Docker image tagged as: manju88foru/authenticationservice:$TAG"
+
+    # Step 7: Push the Docker image to Docker Hub with both latest and the version tag
     - name: Push Docker image
       run: |
-        docker-compose -f docker-compose.yml push authenticationservice
+        # Push both the latest tag and the version tag
+        docker push manju88foru/authenticationservice:latest
+        docker push manju88foru/authenticationservice:$TAG

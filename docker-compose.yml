@@ -12,7 +12,7 @@ services:
       - daliv6-network
 
   authenticationservice:
-    image: manju88foru/authenticationservice:latest  # Updated with Docker Hub username
+    image: manju88foru/authenticationservice:${DOCKER_TAG}  # Updated with Docker Hub username
     build:
       context: .
       dockerfile: Dockerfile
