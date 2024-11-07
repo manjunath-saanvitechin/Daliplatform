@@ -12,12 +12,13 @@ services:
       - daliv6-network
 
   authenticationservice:
+    image: manju88foru/authenticationservice:latest  # Updated with Docker Hub username
     build:
       context: .
       dockerfile: Dockerfile
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
-      - ASPNETCORE_URLS=http://+:8080
+      - ASPNETCORE_URLS=http://+:8001
       - ConnectionStrings__DefaultConnection=Server=sqlserver,1433;Database=DaliV6Db;User Id=sa;Password=DaliV6!Passw0rd;TrustServerCertificate=true;
       - Jwt__Key=u7YKZcwB2Jm3AKx84IN1lm6xFYNbB1NEZqpJoSYVIAo=
       - Jwt__Issuer=DALI-V6
@@ -25,7 +26,7 @@ services:
     depends_on:
       - sqlserver
     ports:
-      - "5001:8080"  # Maps container's port 8080 to host's port 5001
+      - "5001:8080"
     networks:
       - daliv6-network
     command: ["./wait-for-it.sh", "sqlserver:1433", "--", "dotnet", "AuthenticationService.dll"]
