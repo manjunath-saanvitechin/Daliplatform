@@ -46,11 +46,11 @@ jobs:
       run: |
         docker-compose -f docker-compose.yml build authenticationservice
         docker tag manju88foru/authenticationservice:latest manju88foru/authenticationservice:$DOCKER_TAG
+        docker images  # List images to verify that the image was built and tagged correctly
         echo "Docker image tagged as: manju88foru/authenticationservice:$DOCKER_TAG"
 
     # Step 7: Push Docker image to Docker Hub
     - name: Push Docker image
       run: |
-        # Push the images with both tags
         docker push manju88foru/authenticationservice:latest
         docker push manju88foru/authenticationservice:$DOCKER_TAG
