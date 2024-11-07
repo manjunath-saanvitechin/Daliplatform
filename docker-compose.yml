@@ -14,7 +14,7 @@ services:
   authenticationservice:
     build:
       context: .
-      dockerfile: AuthenticationService/Dockerfile
+      dockerfile: Dockerfile
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
       - ASPNETCORE_URLS=http://+:8080
@@ -25,9 +25,10 @@ services:
     depends_on:
       - sqlserver
     ports:
-      - "5001:8080"
+      - "5001:8080"  # Maps container's port 8080 to host's port 5001
     networks:
       - daliv6-network
+    command: ["./wait-for-it.sh", "sqlserver:1433", "--", "dotnet", "AuthenticationService.dll"]
 
 networks:
   daliv6-network:
