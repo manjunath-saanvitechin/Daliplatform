@@ -33,24 +33,18 @@ jobs:
         sudo chmod +x /usr/local/bin/docker-compose
         docker-compose --version  # Verify installation
 
-    # Step 5: Set Docker Tag variable with a format
-    - name: Set Docker Tag
-      run: |
-        # Generate a tag based on the current date and commit hash
-        DOCKER_TAG="${GITHUB_SHA:0:7}-$(date +'%Y%m%d-%H%M%S')"
-        echo "Generated Docker tag: $DOCKER_TAG"
-        echo "DOCKER_TAG=$DOCKER_TAG" >> $GITHUB_ENV  # Store the DOCKER_TAG variable
-
-    # Step 6: Build the Docker image using docker-compose and tag it as 'latest'
+    # Step 5: Build the Docker image using docker-compose
     - name: Build Docker image
       run: |
         docker-compose -f docker-compose.yml build authenticationservice
-        docker tag manju88foru/authenticationservice:latest manju88foru/authenticationservice:$DOCKER_TAG
-        docker images  # List images to verify that the image was built and tagged correctly
-        echo "Docker image tagged as: manju88foru/authenticationservice:$DOCKER_TAG"
 
-    # Step 7: Push Docker image to Docker Hub
+    # Step 6: Tag the Docker image as 'latest'
+    - name: Tag Docker image as latest
+      run: |
+        docker tag manju88foru/authenticationservice:latest manju88foru/authenticationservice:latest
+        docker images  # Verify the image is tagged correctly
+
+    # Step 7: Push the Docker image to Docker Hub
     - name: Push Docker image
       run: |
         docker push manju88foru/authenticationservice:latest
-        docker push manju88foru/authenticationservice:$DOCKER_TAG
