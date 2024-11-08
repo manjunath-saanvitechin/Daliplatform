@@ -66,6 +66,7 @@ jobs:
             docker ps -a -q | grep -v \$(docker ps -q --filter "name=jenkins") | xargs -r docker rm
             # Clean up old images
             docker image prune -af
+            cd /root/Daliplatform
             # Pull the latest image
             docker pull manju88foru/authenticationservice:latest
             # Verify images and bring up the container with docker-compose
