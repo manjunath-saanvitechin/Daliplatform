@@ -36,7 +36,7 @@ WORKDIR /app
 COPY --from=build /app/publish .
 
 # Expose the necessary port (change to 8001)
-EXPOSE 8001
+EXPOSE 5001
 
 # Set environment variable for the new port (if your app uses an environment variable to bind port)
 ENV ASPNETCORE_URLS=http://+:8001
